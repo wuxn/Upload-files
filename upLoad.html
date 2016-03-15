@@ -13,12 +13,12 @@
 		margin: 0 auto;
 	}
 	.pre{
-		width: 260px;
-		height: 190px;
+		width: 500px;
+		height: 250px;
 		overflow: hidden;
 	}
 	.pre .image{
-		width: 100px;
+		width: 200px;
 		border: 0;
 		/*滤镜*/
 		/*filter:progid:DXImageTransform.Microsoft.后面都紧跟各种滤镜和转场函数*/
@@ -33,8 +33,8 @@
 	// 预览图片函数
 	function previewImage(file){
 		// 预览区域最大宽高
-		var maxwidth=260;
-		var maxheight=180;
+		var maxwidth=500;
+		var maxheight=250;
 		var div=document.getElementById("preview");
 		// 
 		if(file.files&&file.files[0]){
